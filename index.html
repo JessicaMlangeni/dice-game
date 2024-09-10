@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Dice to meet you!</h1>
+
+        <div class="dice">
+            <p class="Player1">Jessica</p>
+            <img src="dice6.png" alt="dice 6" class="img1">
+        </div>
+        <div class="dice">
+            <p class="Player2">Keoikantse</p>
+            <img src="dice6.png" alt="dice 6" class="img2">
+        </div>
+        <div class="container bottom">
+            <!-- Button to roll the dice -->
+            <button type="button" class="btn" onclick="rollTheDice()">
+                Roll the dice
+            </button>
+        </div>
+        <div class="container bottom">
+            <!-- Button to edit names -->
+            <button type="button" class="btn" onclick="editNames()">
+                Edit Names
+            </button>
+        </div>
+        <!-- Section to display the winner -->
+        <div class="container">
+            <p class="winner">Let's roll the dice!</p>
+        </div>
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
