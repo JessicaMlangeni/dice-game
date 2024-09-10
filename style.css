@@ -1,0 +1,74 @@
+/* Container styling */
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Dice image styling */
+img.img1, img.img2 {
+    width: 100px; /* Set width */
+    height: 100px; /* Set height */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Styling for dice container */
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+}
+
+/* Button styling */
+.btn {
+    background: lightseagreen;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px;
+    text-decoration: none;
+}
+
+/* Hover effect for button */
+.btn:hover {
+    background: #232931;
+    text-decoration: none;
+}
+
+/* Body styling */
+body {
+    background-color: #042f4b;
+    margin: 0;
+}
+
+/* Heading styling */
+h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.0rem;
+    color: gainsboro;
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 2rem;
+    color: lightseagreen;
+    font-family: "Indie Flower", cursive;
+}
+
+/* Bottom container styling */
+.bottom {
+    padding-top: 30px;
+}
+
+/* Dice roll transitions */
+.even-roll {
+    transition: transform 1.5s ease-out;
+}
+.odd-roll {
+    transition: transform 1.25s ease-out;
+}
