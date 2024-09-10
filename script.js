@@ -25,8 +25,8 @@ function rollTheDice() {
 // Function to edit player names
 function editNames() {
     // Prompt for new names
-    const player1Name = prompt("Jessica:", document.querySelector('.Player1').textContent);
-    const player2Name = prompt("Keoikantse:", document.querySelector('.Player2').textContent);
+    const player1Name = prompt("Enter the name for player 1:", document.querySelector('.Player1').textContent);
+    const player2Name = prompt("Enter the name for player 2:", document.querySelector('.Player2').textContent);
 
     // I Updated the player names
     if (player1Name) document.querySelector('.Player1').textContent = player1Name;
